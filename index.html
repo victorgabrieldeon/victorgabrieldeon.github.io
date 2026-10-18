@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Victor Gabriel — Engenheiro backend</title>
+    <meta name="description" content="Portfólio de Victor Gabriel, engenheiro backend: sistemas distribuídos, APIs de alto throughput e observabilidade. Todos os projetos públicos do GitHub." />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Victor Gabriel — Engenheiro backend" />
+    <meta property="og:description" content="Projetos públicos de Victor Gabriel: tempo real, plataformas em monorepo, ferramentas desktop, plugins de dev e bibliotecas Python." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2309090b'/%3E%3Cpath transform='translate(5.2 10.5) scale(.22)' fill='%23fafafa' d='M0 0L12 0L23 33L34 0L46 0L29 50L17 50ZM54 0L98 0L98 11L65 11L65 39L87 39L87 33L76 33L76 22L98 22L98 50L54 50Z'/%3E%3C/svg%3E" />
+    <link rel="preload" href="fonts/geist-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/geist-mono-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      // Tema antes do primeiro paint: escolha salva, senão a do sistema.
+      try {
+        const saved = localStorage.getItem("theme");
+        const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved === "light" || saved === "dark" ? saved : dark ? "dark" : "light";
+      } catch {}
+      // Entrada da home só no primeiro carregamento (o app remove a classe depois).
+      if (!location.hash.startsWith("#/projeto/")) document.documentElement.classList.add("intro");
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="i-github" viewBox="0 0 16 16">
+        <path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z" />
+      </symbol>
+      <symbol id="i-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" />
+      </symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 17 17 7M8 7h9v9" />
+      </symbol>
+      <symbol id="i-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M11 6l-6 6 6 6" />
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round">
+        <path d="m8 1.8 1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.6l-3.8 2 .7-4.3-3.1-3 4.3-.6Z" />
+      </symbol>
+      <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+      </symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+      </symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+        <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" />
+      </symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" />
+        <path d="M16 2v4M8 2v4M3 10h18" />
+      </symbol>
+      <symbol id="i-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+      </symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6" />
+      </symbol>
+      <symbol id="i-app" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2" />
+        <path d="M2 9h20M6 6.5h.01M9 6.5h.01" />
+      </symbol>
+      <symbol id="i-package" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73Z" />
+        <path d="M12 22V12M3.29 7 12 12l8.71-5M7.5 4.27l9 5.15" />
+      </symbol>
+      <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 15V3M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5" />
+      </symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z" />
+      </symbol>
+      <symbol id="i-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="8" rx="2" />
+        <rect x="2" y="14" width="20" height="8" rx="2" />
+        <path d="M6 6h.01M6 18h.01" />
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="5" />
+        <path d="M20 21a8 8 0 0 0-16 0" />
+      </symbol>
+      <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3Z" />
+      </symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="8" width="14" height="14" rx="2" />
+        <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5" />
+      </symbol>
+      <symbol id="i-scribble" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 4c-1 15 6 26 22 30" />
+        <path d="m19.5 37.5 8.5-3.5-6.5-8" />
+      </symbol>
+      <pattern id="p-hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path class="ph" d="M2 0V4" /></pattern>
+      <pattern id="p-hatch2" width="2.5" height="2.5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path class="ph" d="M1.25 0V2.5" /></pattern>
+    </svg>
+
+    <header class="site-header">
+      <div class="rail bar">
+        <a class="mark" href="#/" aria-label="Victor Gabriel, início">
+          <svg viewBox="0 0 98 50" aria-hidden="true"><path d="M0 0L12 0L23 33L34 0L46 0L29 50L17 50ZM54 0L98 0L98 11L65 11L65 39L87 39L87 33L76 33L76 22L98 22L98 50L54 50Z" /></svg>
+        </a>
+        <nav class="nav" aria-label="Seções">
+          <a href="#sobre" data-nav="sobre">Sobre</a>
+          <a href="#stack" data-nav="stack">Stack</a>
+          <a href="#destaques" data-nav="destaques">Destaques</a>
+          <a href="#linguagens" data-nav="linguagens">Linguagens</a>
+          <a href="#/projetos" data-route="projetos">Projetos</a>
+        </nav>
+        <div class="bar-end">
+          <a class="icon-btn" href="https://github.com/victorgabrieldeon" target="_blank" rel="noopener me" aria-label="GitHub de Victor Gabriel">
+            <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+          </a>
+          <button type="button" class="icon-btn" data-theme-toggle aria-label="Alternar tema claro/escuro">
+            <svg class="icon" aria-hidden="true"><use href="#i-contrast" /></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo" class="rail" tabindex="-1">
+      <div id="home">
+        <section class="panel hero" aria-labelledby="h-name">
+          <div class="cover">
+            <svg class="fig" viewBox="0 0 766 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <pattern id="hatch-a" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="3" /><path d="M1.5 0V3" /></pattern>
+                <pattern id="hatch-b" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" /><path d="M3 0V6" /></pattern>
+              </defs>
+              <g class="fig-guides"><path d="M-730.8 740.1L1420.4 -501.9" /><path d="M-562.5 837.3L1588.7 -404.7" /><path d="M-730.8 -339.9L1308.1 837.3" /><path d="M-450.2 -501.9L1588.7 675.3" /></g>
+              <path class="fig-plate" d="M204.5 200.1L485.1 38.1L653.4 135.3L372.8 297.3Z" />
+              <g class="fig-solid">
+                <path class="fig-a" style="--i: 0" d="M510.8 82.7L433.6 127.2L433.6 86.7L510.8 42.2Z" pathLength="1" />
+                <path class="fig-b" style="--i: 1" d="M550.5 135.3L536.5 127.2L536.5 86.7L550.5 94.8Z" pathLength="1" />
+                <path class="fig-a" style="--i: 2" d="M536.5 127.2L510.8 142.1L510.8 101.6L536.5 86.7Z" pathLength="1" />
+                <path class="fig-b" style="--i: 3" d="M510.8 142.1L485.1 127.2L485.1 86.7L510.8 101.6Z" pathLength="1" />
+                <path class="fig-b" style="--i: 4" d="M499.1 194.7L382.2 127.2L382.2 86.7L499.1 154.2Z" pathLength="1" />
+                <path class="fig-a" style="--i: 5" d="M602 135.3L499.1 194.7L499.1 154.2L602 94.8Z" pathLength="1" />
+                <path class="fig-b" style="--i: 6" d="M386.9 213.6L335.4 154.2L335.4 113.7L386.9 173.1Z" pathLength="1" />
+                <path class="fig-b" style="--i: 7" d="M412.6 244.7L255.9 200.1L255.9 159.6L412.6 204.2Z" pathLength="1" />
+                <path class="fig-a" style="--i: 8" d="M440.7 228.5L412.6 244.7L412.6 204.2L440.7 188Z" pathLength="1" />
+                <path class="fig-top" style="--i: 9" d="M255.9 159.6L284 143.4L386.9 173.1L335.4 113.7L363.5 97.5L440.7 188L412.6 204.2Z" pathLength="1" />
+                <path class="fig-top" style="--i: 10" d="M382.2 86.7L485.1 27.3L510.8 42.2L433.6 86.7L499.1 124.5L550.5 94.8L536.5 86.7L510.8 101.6L485.1 86.7L536.5 57L602 94.8L499.1 154.2Z" pathLength="1" />
+              </g>
+            </svg>
+            <span class="fig-cap" aria-hidden="true">Fig. 1.</span>
+          </div>
+          <div class="id">
+            <div class="avatar">
+              <img src="img/avatar.jpg" width="120" height="120" alt="Avatar de Victor Gabriel no GitHub" />
+            </div>
+            <div class="id-text">
+              <h1 class="name" id="h-name">Victor Gabriel</h1>
+              <p class="tagline">Sistemas distribuídos, APIs de alto throughput e observabilidade.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel links" aria-label="Contato">
+          <span class="note note-left" aria-hidden="true"><span>me segue</span><svg><use href="#i-scribble" /></svg></span>
+          <a class="social" href="https://github.com/victorgabrieldeon" target="_blank" rel="noopener me">
+            <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+            <span>victorgabrieldeon</span>
+            <span class="social-meta" id="followers"></span>
+          </a>
+        </section>
+
+        <section class="panel info" aria-label="Resumo">
+          <ul>
+            <li><span class="ibox"><svg class="icon" aria-hidden="true"><use href="#i-code" /></svg></span>Engenheiro backend</li>
+            <li><span class="ibox"><svg class="icon" aria-hidden="true"><use href="#i-folder" /></svg></span><span id="info-repos"></span></li>
+            <li><span class="ibox"><svg class="icon" aria-hidden="true"><use href="#i-layers" /></svg></span><span id="info-langs"></span></li>
+          </ul>
+          <ul>
+            <li><span class="ibox"><svg class="icon" aria-hidden="true"><use href="#i-calendar" /></svg></span><span id="info-since"></span></li>
+            <li><span class="ibox"><svg class="icon" aria-hidden="true"><use href="#i-activity" /></svg></span><span id="info-push"></span></li>
+          </ul>
+        </section>
+
+        <section class="panel contrib" aria-labelledby="contrib-cap">
+          <span class="note note-right" aria-hidden="true"><svg><use href="#i-scribble" /></svg><span>cada quadrado é um dia</span></span>
+          <div class="cal-scroll" id="cal-scroll">
+            <div class="cal" id="cal"></div>
+          </div>
+          <div class="cal-foot">
+            <p class="cal-cap" id="contrib-cap"><span class="fig-label">Fig. 2.</span> <span id="contrib-text"></span></p>
+            <div class="cal-legend" aria-hidden="true">
+              <span>Menos</span><i data-l="0"></i><i data-l="1"></i><i data-l="2"></i><i data-l="3"></i><i data-l="4"></i><span>Mais</span>
+            </div>
+          </div>
+          <div class="cal-tip" id="cal-tip" role="presentation" hidden></div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <section class="panel" id="sobre" aria-labelledby="h-sobre">
+          <div class="panel-body about">
+            <h2 class="greet" id="h-sobre"><span class="sr-only">Sobre</span><span aria-hidden="true" id="greet">Olá</span></h2>
+            <ul class="bullets">
+              <li>
+                Sou engenheiro backend. Trabalho com sistemas distribuídos, APIs de alto throughput, arquitetura orientada a
+                eventos e pipelines assíncronos, tratando latência e observabilidade desde o começo.
+              </li>
+              <li id="about-count">
+                Aqui estão os meus projetos públicos do GitHub: transmissão ao vivo, plataformas em monorepo, um cliente de
+                banco de dados desktop, plugins para ferramentas de desenvolvimento e bibliotecas Python.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <section class="panel" id="stack" aria-labelledby="h-stack">
+          <span class="note note-left" aria-hidden="true"><span>clica pra ver onde usei</span><svg><use href="#i-scribble" /></svg></span>
+          <div class="panel-head"><h2 id="h-stack">Stack<sup id="stack-count"></sup></h2></div>
+          <div class="stack" id="stack-groups"></div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <section class="panel" id="arquitetura" aria-labelledby="h-arq">
+          <div class="panel-head"><h2 id="h-arq">Arquitetura</h2></div>
+          <ul class="arch-grid" id="arch-grid"></ul>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <section class="panel" id="destaques" aria-labelledby="h-destaques">
+          <span class="note note-left" aria-hidden="true"><span>comece por aqui</span><svg><use href="#i-scribble" /></svg></span>
+          <div class="panel-head"><h2 id="h-destaques">Destaques<sup id="featured-count"></sup></h2></div>
+          <ol class="feat" id="featured"></ol>
+          <div class="more-row">
+            <a class="more" href="#/projetos">Todos os projetos<span class="more-count" id="more-count"></span><svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+          </div>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+
+        <section class="panel" id="linguagens" aria-labelledby="h-linguagens">
+          <div class="panel-head"><h2 id="h-linguagens">Linguagens</h2></div>
+          <p class="panel-body note-text" id="lang-note"></p>
+          <ul class="lang-rows" id="lang-rows"></ul>
+        </section>
+
+        <div class="sep" aria-hidden="true"></div>
+      </div>
+
+      <div id="projects" hidden>
+        <div class="panel p-back"><a class="back" href="#/" data-back><svg class="icon" aria-hidden="true"><use href="#i-back" /></svg>Início</a></div>
+        <section class="panel" aria-labelledby="h-projetos">
+          <span class="note note-right" aria-hidden="true"><svg><use href="#i-scribble" /></svg><span>abre qualquer um</span></span>
+          <div class="panel-head page-head">
+            <h1 id="h-projetos" tabindex="-1">Projetos<sup id="all-count"></sup></h1>
+            <p class="page-lede">Os repositórios públicos do GitHub, sem forks. Cada figura resume o que o projeto faz.</p>
+          </div>
+          <div class="filters-wrap">
+            <div class="filters" id="filters" role="group" aria-label="Filtrar por área"></div>
+          </div>
+          <p class="filter-status" id="filter-status" aria-live="polite"></p>
+          <ul class="cards" id="cards"></ul>
+        </section>
+        <div class="sep" aria-hidden="true"></div>
+      </div>
+
+      <div id="project" hidden>
+        <article class="project-body" id="project-body" tabindex="-1"></article>
+      </div>
+    </main>
+
+    <footer class="rail site-foot">
+      <a class="mark" href="#/" aria-label="Victor Gabriel, início">
+        <svg viewBox="0 0 98 50" aria-hidden="true"><path d="M0 0L12 0L23 33L34 0L46 0L29 50L17 50ZM54 0L98 0L98 11L65 11L65 39L87 39L87 33L76 33L76 22L98 22L98 50L54 50Z" /></svg>
+      </a>
+      <a class="icon-btn" href="https://github.com/victorgabrieldeon" target="_blank" rel="noopener me" aria-label="GitHub de Victor Gabriel">
+        <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+      </a>
+    </footer>
+
+    <div class="wordmark" aria-hidden="true">
+      <svg viewBox="0 0 1000 200"><text x="500" y="150" text-anchor="middle" textLength="980" lengthAdjust="spacingAndGlyphs">victorgabriel</text></svg>
+    </div>
+
+    <noscript><p class="noscript">Ative o JavaScript para ver os projetos, ou acesse github.com/victorgabrieldeon.</p></noscript>
+
+    <script src="data/github.js"></script>
+    <script src="js/catalog.js"></script>
+    <script src="js/brands.js"></script>
+    <script src="js/figures.js"></script>
+    <script src="js/markdown.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

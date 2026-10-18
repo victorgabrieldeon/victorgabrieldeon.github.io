@@ -1,0 +1,21 @@
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node (os scripts não têm dependências, mas por garantia)
+node_modules/
+npm-debug.log*
+
+# Segredos locais
+.env
+.env.*
+
+# Site montado pelo workflow do GitHub Pages
+_site/
+
+# Impeccable: capturas de revisão e configuração só desta máquina
+.impeccable/review/
+.impeccable/config.local.json

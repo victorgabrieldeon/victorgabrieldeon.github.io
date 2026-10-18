@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T11:43:21.199733+00:00",
+  "title": "Design System: Victor Gabriel — Portfólio",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "canonical": "#09090b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#3f3f46",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Zinc",
+        "canonical": "#71717a",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "paper-raised": {
+        "role": "neutral",
+        "displayName": "Raised Paper",
+        "canonical": "#fafafa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#f4f4f5",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "canonical": "#e4e4e7",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#ececef",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "fig-ink": {
+        "role": "neutral",
+        "displayName": "Figure Ink",
+        "canonical": "#27272a",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "fig-hatch": {
+        "role": "neutral",
+        "displayName": "Figure Hatch",
+        "canonical": "#b4b4bb",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "fresh-blue": {
+        "role": "tertiary",
+        "displayName": "Fresh Blue",
+        "canonical": "#2563eb",
+        "tonalRamp": [
+          "oklch(15% 0.19 262)",
+          "oklch(25% 0.19 262)",
+          "oklch(35% 0.19 262)",
+          "oklch(48% 0.19 262)",
+          "oklch(60% 0.19 262)",
+          "oklch(72% 0.19 262)",
+          "oklch(84% 0.19 262)",
+          "oklch(95% 0.19 262)"
+        ]
+      },
+      "cal-0": {
+        "role": "neutral",
+        "displayName": "Calendar Step 0",
+        "canonical": "#ededef",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cal-1": {
+        "role": "neutral",
+        "displayName": "Calendar Step 1",
+        "canonical": "#c8c8cd",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cal-2": {
+        "role": "neutral",
+        "displayName": "Calendar Step 2",
+        "canonical": "#94949b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cal-3": {
+        "role": "neutral",
+        "displayName": "Calendar Step 3",
+        "canonical": "#55555d",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cal-4": {
+        "role": "neutral",
+        "displayName": "Calendar Step 4",
+        "canonical": "#09090b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-paper": {
+        "role": "neutral",
+        "displayName": "Paper (night)",
+        "canonical": "#09090b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-paper-raised": {
+        "role": "neutral",
+        "displayName": "Raised Paper (night)",
+        "canonical": "#101012",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-surface": {
+        "role": "neutral",
+        "displayName": "Surface (night)",
+        "canonical": "#18181b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-border": {
+        "role": "neutral",
+        "displayName": "Border (night)",
+        "canonical": "#2a2a2f",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-hairline": {
+        "role": "neutral",
+        "displayName": "Hairline (night)",
+        "canonical": "#1e1e22",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-ink": {
+        "role": "primary",
+        "displayName": "Ink (night)",
+        "canonical": "#fafafa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink (night)",
+        "canonical": "#d4d4d8",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-muted": {
+        "role": "neutral",
+        "displayName": "Muted Zinc (night)",
+        "canonical": "#a1a1aa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-fig-hatch": {
+        "role": "neutral",
+        "displayName": "Figure Hatch (night)",
+        "canonical": "#4a4a52",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-fresh-blue": {
+        "role": "tertiary",
+        "displayName": "Fresh Blue (night)",
+        "canonical": "#3b82f6",
+        "tonalRamp": [
+          "oklch(15% 0.19 262)",
+          "oklch(25% 0.19 262)",
+          "oklch(35% 0.19 262)",
+          "oklch(48% 0.19 262)",
+          "oklch(60% 0.19 262)",
+          "oklch(72% 0.19 262)",
+          "oklch(84% 0.19 262)",
+          "oklch(95% 0.19 262)"
+        ]
+      },
+      "fig-soft": {
+        "role": "neutral",
+        "displayName": "Figure Soft",
+        "canonical": "#a1a1aa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cover-ink": {
+        "role": "neutral",
+        "displayName": "Cover Ink",
+        "canonical": "#a1a1aa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cover-lit": {
+        "role": "neutral",
+        "displayName": "Cover Lit",
+        "canonical": "#52525b",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "cover-hatch": {
+        "role": "neutral",
+        "displayName": "Cover Hatch",
+        "canonical": "#d9d9de",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-fig-ink": {
+        "role": "neutral",
+        "displayName": "Night Figure Ink",
+        "canonical": "#d4d4d8",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-fig-soft": {
+        "role": "neutral",
+        "displayName": "Night Figure Soft",
+        "canonical": "#5c5c66",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-cover-ink": {
+        "role": "neutral",
+        "displayName": "Night Cover Ink",
+        "canonical": "#4f4f58",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-cover-lit": {
+        "role": "neutral",
+        "displayName": "Night Cover Lit",
+        "canonical": "#a1a1aa",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      },
+      "night-cover-hatch": {
+        "role": "neutral",
+        "displayName": "Night Cover Hatch",
+        "canonical": "#2c2c32",
+        "tonalRamp": [
+          "oklch(15% 0.005 286)",
+          "oklch(25% 0.005 286)",
+          "oklch(35% 0.005 286)",
+          "oklch(48% 0.005 286)",
+          "oklch(60% 0.005 286)",
+          "oklch(72% 0.005 286)",
+          "oklch(84% 0.005 286)",
+          "oklch(95% 0.005 286)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Name in the identity block."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Panel heads with muted superscript count."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Featured project and architecture titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Bullets, readme, summaries."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav, buttons, social links, chips."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Tags, counts, filter status, Fig. labels, code."
+      },
+      "data-key": {
+        "displayName": "Data Key",
+        "purpose": "Uppercase mono keys in the project meta grid only."
+      },
+      "hand": {
+        "displayName": "Hand",
+        "purpose": "Greeting line only."
+      },
+      "hand-note": {
+        "displayName": "Hand Note",
+        "purpose": "Margin notes at 76rem+ only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "cell-rule",
+        "value": "1px 0 0 var(--line), 0 1px 0 var(--line)",
+        "purpose": "Draws lined-grid cell rules without doubled borders."
+      },
+      {
+        "name": "dot-knockout",
+        "value": "0 0 0 2px var(--bg)",
+        "purpose": "Paper ring lifting the 7-day blue dot off its icon box."
+      },
+      {
+        "name": "header-frost",
+        "value": "backdrop-filter: blur(12px) saturate(1.3); background: color-mix(in srgb, var(--bg) 84%, transparent)",
+        "purpose": "Sticky header only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "All state, expand and intro motion."
+      },
+      {
+        "name": "press",
+        "value": "transform: scale(0.95); transition-duration: 0.06s",
+        "purpose": "Press on buttons, chips, icon buttons, social, more, back."
+      },
+      {
+        "name": "hover",
+        "value": "0.15s color / background-color",
+        "purpose": "Hover fades."
+      },
+      {
+        "name": "expand",
+        "value": "grid-template-rows 0.45s var(--ease); chip pill clip-path 0.45s",
+        "purpose": "Featured item open/close and filter pill."
+      },
+      {
+        "name": "intro",
+        "value": "rise 0.7s staggered 80ms; calendar cells 0.5s at 450ms + week*13ms",
+        "purpose": "First load; reduced-motion collapses to a 0.4s fade."
+      },
+      {
+        "name": "route",
+        "value": "view transition old 0.18s, new 0.45s",
+        "purpose": "Page changes; theme swaps are instant."
+      },
+      {
+        "name": "card-hover",
+        "value": "plate border 0.2s; figure scale(1.035) 0.6s var(--ease); dashed strokes dash-run 1.2s linear",
+        "purpose": "Project card hover/focus."
+      },
+      {
+        "name": "tech-hover",
+        "value": "tile background 0.15s; icon translateY(-2px) 0.35s var(--ease); meta color 0.15s; arrow translate(2px, -2px) 0.3s var(--ease)",
+        "purpose": "Linked stack tool tile hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "36rem",
+        "purpose": "Cards to 1 column; language bar wraps under name."
+      },
+      {
+        "name": "mobile",
+        "value": "40rem",
+        "purpose": "Nav scroll strip, stack rows stack and tools to 2 columns, architecture to 1 column (fill hidden), info stacks, name 1.625rem."
+      },
+      {
+        "name": "desktop",
+        "value": "40.0625rem",
+        "purpose": "Identity row overlaps the cover foot."
+      },
+      {
+        "name": "margin-notes",
+        "value": "76rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled action on project pages.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Ver repositório</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.5rem;height:2.25rem;padding:0 .875rem;border-radius:.5rem;background:var(--fg,#09090b);color:var(--bg,#fff);font:500 .875rem/1 var(--font,Geist,sans-serif);text-decoration:none;transition:background-color .15s,transform .2s cubic-bezier(.16,1,.3,1)}.ds-btn:hover{background:color-mix(in srgb,var(--fg,#09090b) 84%,var(--bg,#fff))}.ds-btn:active{transform:scale(.95);transition-duration:.06s}.ds-btn:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined companion action.",
+      "html": "<a class=\"ds-btn2\" href=\"#\">Demo</a>",
+      "css": ".ds-btn2{display:inline-flex;align-items:center;height:2.25rem;padding:0 .875rem;border:1px solid var(--border,#e4e4e7);border-radius:.5rem;color:var(--fg,#09090b);font:500 .875rem/1 var(--font,Geist,sans-serif);text-decoration:none;transition:background-color .15s,transform .2s cubic-bezier(.16,1,.3,1)}.ds-btn2:hover{background:var(--surface,#f4f4f5)}.ds-btn2:active{transform:scale(.95);transition-duration:.06s}.ds-btn2:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:2px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Category filter with mono count; pressed state inverts to ink.",
+      "html": "<button class=\"ds-chip\">Todos <span class=\"ds-n\">24</span></button> <button class=\"ds-chip\" aria-pressed=\"true\">Web <span class=\"ds-n\">9</span></button>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:.375rem;height:2rem;padding:0 .75rem;border:1px solid var(--border,#e4e4e7);border-radius:.5rem;background:none;color:var(--fg-2,#3f3f46);font:500 .8125rem/1 var(--font,Geist,sans-serif);cursor:pointer;transition:color .2s,border-color .2s,background-color .2s}.ds-chip:hover{border-color:color-mix(in srgb,var(--fg,#09090b) 28%,transparent);color:var(--fg,#09090b)}.ds-chip:active{transform:scale(.95)}.ds-chip:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:2px}.ds-n{font:.6875rem/1 var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a)}.ds-chip[aria-pressed=true]{background:var(--fg,#09090b);border-color:var(--fg,#09090b);color:var(--bg,#fff)}.ds-chip[aria-pressed=true] .ds-n{color:color-mix(in srgb,var(--bg,#fff) 65%,transparent)}"
+    },
+    {
+      "name": "Filter Status",
+      "kind": "custom",
+      "description": "Mono muted status line under the filter chips; its inline link is ink with a quiet Border underline.",
+      "html": "<p class=\"ds-fstat\">3 projetos com Docker, do mais recente ao mais antigo. <a href=\"#\">Ver todos</a></p>",
+      "css": ".ds-fstat{margin:0;padding:.5rem 1rem;border-bottom:1px solid var(--line,#ececef);font:.75rem/1.5 var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a)}.ds-fstat a{color:var(--fg,#09090b);text-decoration:underline;text-decoration-color:var(--border,#e4e4e7);text-decoration-thickness:1px;text-underline-offset:3px}.ds-fstat a:hover{text-decoration-color:currentColor}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Mono technology tag with a monochrome brand icon in currentColor.",
+      "html": "<span class=\"ds-tag\"><svg viewBox=\"0 0 24 24\" width=\"13\" height=\"13\"><path d=\"M2 2h20v20H2z\" fill=\"currentColor\"/></svg>TypeScript</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;gap:.375rem;padding:.25rem .5rem;border:1px solid var(--border,#e4e4e7);border-radius:.375rem;background:var(--surface-2,#fafafa);font:.75rem/1.25 var(--mono,\"Geist Mono\",monospace);color:var(--fg-2,#3f3f46)}.ds-tag svg{width:.8125rem;height:.8125rem;flex:none}"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky frosted header: monogram, muted links, divider, icon button.",
+      "html": "<nav class=\"ds-bar\"><b class=\"ds-mark\">VG</b><a href=\"#\" aria-current=\"true\">Projetos</a><a href=\"#\">Sobre</a><span class=\"ds-div\"></span><button class=\"ds-ib\" aria-label=\"Tema\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"5\"/></svg></button></nav>",
+      "css": ".ds-bar{display:flex;align-items:center;gap:.125rem;height:3.5rem;padding:0 .5rem 0 1rem;background:color-mix(in srgb,var(--bg,#fff) 84%,transparent);backdrop-filter:blur(12px) saturate(1.3);border-bottom:1px solid var(--line,#ececef);font-family:var(--font,Geist,sans-serif)}.ds-mark{margin-right:auto}.ds-bar a{padding:.375rem .625rem;border-radius:.5rem;font-size:.875rem;color:var(--muted,#71717a);text-decoration:none;transition:color .15s}.ds-bar a:hover,.ds-bar a[aria-current=true]{color:var(--fg,#09090b)}.ds-div{width:1px;height:1rem;margin:0 .5rem;background:var(--border,#e4e4e7)}.ds-ib{display:inline-grid;place-items:center;width:2rem;height:2rem;border:0;border-radius:.5rem;background:none;color:var(--fg-2,#3f3f46);cursor:pointer;transition:background-color .15s,color .15s}.ds-ib:hover{background:var(--surface,#f4f4f5);color:var(--fg,#09090b)}.ds-ib:focus-visible,.ds-bar a:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:2px}"
+    },
+    {
+      "name": "Project Row",
+      "kind": "card",
+      "refersTo": "list-row",
+      "description": "Square ruled list row with icon box, 7-day blue dot, mono side meta.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-ibox\"><i></i></span><span><b>portfolio</b><small>Site pessoal estático</small></span><code>2d</code></a>",
+      "css": ".ds-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:.875rem;padding:.75rem 1rem;border-bottom:1px solid var(--line,#ececef);color:var(--fg,#09090b);text-decoration:none;font-family:var(--font,Geist,sans-serif);transition:background-color .15s}.ds-row:hover{background:var(--surface-2,#fafafa)}.ds-row:active{background:var(--surface,#f4f4f5)}.ds-row:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:-2px}.ds-row b{display:block;font-size:.9375rem;font-weight:500}.ds-row small{font-size:.8125rem;color:var(--muted,#71717a)}.ds-row code{font:.75rem var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a)}.ds-ibox{position:relative;width:2rem;height:2rem;border:1px solid var(--border,#e4e4e7);border-radius:.375rem}.ds-ibox i{position:absolute;top:-3px;right:-3px;width:7px;height:7px;border-radius:50%;background:var(--dot,#2563eb);box-shadow:0 0 0 2px var(--bg,#fff)}"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card-plate",
+      "description": "Square lined-grid cell: dotted 16/9 figure plate with a monochrome diagram, title, summary, mono meta.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-plate\"><svg viewBox=\"0 0 320 180\"><rect class=\"fg\" x=\"40\" y=\"60\" width=\"90\" height=\"60\" rx=\"4\"/><path class=\"fg fd\" d=\"M130 90H190\"/><rect class=\"fg fq\" x=\"190\" y=\"60\" width=\"90\" height=\"60\" rx=\"4\"/><text x=\"85\" y=\"94\" text-anchor=\"middle\">input</text></svg><small>Fig.</small></span><b>flowcast</b><span class=\"ds-sum\">Pipeline de dados</span><span class=\"ds-meta\">Python · <i></i>2d</span></a>",
+      "css": ".ds-card{display:flex;flex-direction:column;gap:.5rem;padding:.5rem .5rem 1.125rem;box-shadow:1px 0 0 var(--line,#ececef),0 1px 0 var(--line,#ececef);color:var(--fg,#09090b);text-decoration:none;font-family:var(--font,Geist,sans-serif)}.ds-plate{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--border,#e4e4e7);border-radius:12px;background-color:var(--surface-2,#fafafa);background-image:radial-gradient(color-mix(in srgb,var(--fg,#09090b) 10%,transparent) 1px,transparent 1.25px);background-size:14px 14px;background-position:7px 7px;transition:border-color .2s}.ds-plate svg{position:absolute;inset:0;width:100%;height:100%;transition:transform .6s cubic-bezier(.16,1,.3,1)}.ds-plate .fg{fill:none;stroke:var(--fig-ink,#27272a);stroke-width:1.25}.ds-plate .fd{stroke-dasharray:3 3}.ds-plate .fq{fill:color-mix(in srgb,var(--fig-ink,#27272a) 10%,transparent)}.ds-plate text{font:8px var(--mono,\"Geist Mono\",monospace);fill:var(--fig-ink,#27272a)}.ds-plate small{position:absolute;right:.625rem;bottom:.5rem;font:.6875rem/1 var(--mono,monospace);color:var(--muted,#71717a)}.ds-card b{padding:0 .5rem;font-weight:500;font-size:1.0625rem;letter-spacing:-.01em}.ds-sum{padding:0 .5rem;font-size:.875rem;line-height:1.55;color:var(--fg-2,#3f3f46)}.ds-meta{padding:0 .5rem;font:.75rem var(--mono,monospace);color:var(--muted,#71717a)}.ds-meta i{display:inline-block;width:6px;height:6px;margin-right:.375rem;border-radius:50%;background:var(--dot,#2563eb)}.ds-card:hover .ds-plate,.ds-card:focus-visible .ds-plate{border-color:color-mix(in srgb,var(--fg,#09090b) 30%,transparent)}.ds-card:hover svg{transform:scale(1.035)}.ds-card:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:-3px}"
+    },
+    {
+      "name": "Stack Row",
+      "kind": "custom",
+      "refersTo": "tech-tile",
+      "description": "One stack group per row: group name with mono count beside a lined auto-fill grid of tool tiles; empty tracks show a faint hatch; linked tiles carry mono usage meta.",
+      "html": "<div class=\"ds-srow\"><h3 class=\"ds-sgrp\">Workflows<span>2</span></h3><ul class=\"ds-tgrid\"><li><a class=\"ds-tech\" href=\"#\"><span class=\"ds-tico\"><svg viewBox=\"0 0 24 24\"><path d=\"M2 2h20v20H2z\"/></svg></span><span class=\"ds-tnm\">Temporal</span><span class=\"ds-tmeta\"><span class=\"ds-twh\">em 2 projetos</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></span></a></li><li><span class=\"ds-tech\"><span class=\"ds-tico\"><span class=\"ds-glyph\">I</span></span><span class=\"ds-tnm\">Inngest</span></span></li></ul></div>",
+      "css": ".ds-srow{display:grid;grid-template-columns:10rem minmax(0,1fr);color:var(--fg,#09090b);font-family:var(--font,Geist,sans-serif)}.ds-srow+.ds-srow{border-top:1px solid var(--line,#ececef)}.ds-sgrp{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem;margin:0;padding:.875rem 1rem;border-right:1px solid var(--line,#ececef);font-size:.875rem;font-weight:500}.ds-sgrp span{font:.6875rem/1 var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a)}.ds-tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));margin:0;padding:0;overflow:hidden;list-style:none;background-image:repeating-linear-gradient(315deg,color-mix(in srgb,color-mix(in srgb,var(--border,#e4e4e7) 75%,transparent) 60%,transparent) 0 1px,transparent 0 50%);background-size:10px 10px}.ds-tgrid li{min-width:0;background:var(--bg,#fff);box-shadow:1px 0 0 var(--line,#ececef),0 1px 0 var(--line,#ececef)}.ds-tech{box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start;gap:.125rem;height:100%;padding:.875rem 1rem .75rem;color:inherit;text-decoration:none}.ds-tico{display:grid;place-items:center;height:1.75rem;margin-bottom:.5rem;color:var(--fg,#09090b);transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-tico svg{width:1.5rem;height:1.5rem;fill:currentColor}.ds-tnm{font-size:.875rem;font-weight:500}.ds-tmeta{display:inline-flex;align-items:center;gap:.25rem;max-width:100%;font:.6875rem/1.4 var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a);transition:color .15s}.ds-twh{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.ds-tmeta svg{flex:none;width:.75rem;height:.75rem;transition:transform .3s cubic-bezier(.16,1,.3,1)}a.ds-tech{transition:background-color .15s}a.ds-tech:hover{background:var(--surface-2,#fafafa)}a.ds-tech:hover .ds-tico{transform:translateY(-2px)}a.ds-tech:hover .ds-tmeta{color:var(--fg,#09090b)}a.ds-tech:hover .ds-tmeta svg{transform:translate(2px,-2px)}a.ds-tech:focus-visible{outline:2px solid var(--fg,#09090b);outline-offset:-2px}.ds-glyph{box-sizing:border-box;display:grid;place-items:center;min-width:1.5rem;height:1.5rem;padding:0 .3125rem;border-radius:.375rem;background:var(--fg,#09090b);color:var(--bg,#fff);font:600 .75rem/1 var(--mono,\"Geist Mono\",monospace);letter-spacing:-.02em}@media (max-width:40rem){.ds-srow{grid-template-columns:minmax(0,1fr)}.ds-sgrp{padding:.625rem 1rem;border-right:0;border-bottom:1px solid var(--line,#ececef)}.ds-tgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+    },
+    {
+      "name": "Tool Monogram",
+      "kind": "custom",
+      "refersTo": "mono-glyph",
+      "description": "Ink-filled mono chip, icon-sized, for a tool with no brand mark or line icon.",
+      "html": "<span class=\"ds-glyph\">I</span> <span class=\"ds-glyph\">omp</span>",
+      "css": ".ds-glyph{box-sizing:border-box;display:inline-grid;place-items:center;min-width:1.5rem;height:1.5rem;padding:0 .3125rem;border-radius:.375rem;background:var(--fg,#09090b);color:var(--bg,#fff);font:600 .75rem/1 var(--mono,\"Geist Mono\",monospace);letter-spacing:-.02em}"
+    },
+    {
+      "name": "Architecture Cell",
+      "kind": "card",
+      "refersTo": "arch-cell",
+      "description": "Two-column lined grid of static concept cells: dotted figure plate with a concept diagram, name, one sentence; a hatched fill closes an odd count.",
+      "html": "<ul class=\"ds-arch\"><li class=\"ds-acell\"><span class=\"ds-plate\"><svg viewBox=\"0 0 320 180\"><rect class=\"fg\" x=\"115\" y=\"60\" width=\"90\" height=\"60\" rx=\"4\"/><path class=\"fg fd\" d=\"M40 90H115M205 90H280\"/><rect class=\"fg fq\" x=\"135\" y=\"75\" width=\"50\" height=\"30\" rx=\"3\"/></svg><small>Fig. 3</small></span><h3>Arquitetura hexagonal</h3><p>O domínio expõe portas; HTTP, filas, banco e CLI entram como adaptadores trocáveis.</p></li><li class=\"ds-afill\" aria-hidden=\"true\"></li></ul>",
+      "css": ".ds-arch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0;padding:0;overflow:hidden;list-style:none;color:var(--fg,#09090b);font-family:var(--font,Geist,sans-serif)}.ds-acell,.ds-afill{min-width:0;box-shadow:1px 0 0 var(--line,#ececef),0 1px 0 var(--line,#ececef)}.ds-acell{display:flex;flex-direction:column;gap:.375rem;padding:.5rem .5rem 1.125rem}.ds-plate{position:relative;display:block;aspect-ratio:16/9;margin-bottom:.5rem;overflow:hidden;border:1px solid var(--border,#e4e4e7);border-radius:12px;background-color:var(--surface-2,#fafafa);background-image:radial-gradient(color-mix(in srgb,var(--fg,#09090b) 10%,transparent) 1px,transparent 1.25px);background-size:14px 14px;background-position:7px 7px}.ds-plate svg{position:absolute;inset:0;width:100%;height:100%}.ds-plate .fg{fill:none;stroke:var(--fig-ink,#27272a);stroke-width:1.25}.ds-plate .fd{stroke-dasharray:3 3}.ds-plate .fq{fill:color-mix(in srgb,var(--fig-ink,#27272a) 10%,transparent)}.ds-plate small{position:absolute;right:.625rem;bottom:.5rem;font:.6875rem/1 var(--mono,\"Geist Mono\",monospace);color:var(--muted,#71717a)}.ds-acell h3{margin:0;padding:0 .5rem;font-size:1.0625rem;font-weight:500;letter-spacing:-.01em}.ds-acell p{margin:0;padding:0 .5rem;font-size:.875rem;line-height:1.55;color:var(--fg-2,#3f3f46);text-wrap:pretty}.ds-afill{background-image:repeating-linear-gradient(315deg,color-mix(in srgb,var(--border,#e4e4e7) 75%,transparent) 0 1px,transparent 0 50%);background-size:10px 10px}@media (max-width:40rem){.ds-arch{grid-template-columns:minmax(0,1fr)}.ds-afill{display:none}}"
+    },
+    {
+      "name": "Language Row",
+      "kind": "custom",
+      "refersTo": "lang-bar",
+      "description": "Monochrome brand icon, name, ink bar on a zinc track, tabular mono percentage.",
+      "html": "<div class=\"ds-lang\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M2 2h20v20H2z\" fill=\"currentColor\"/></svg><b>TypeScript</b><span class=\"ds-track\"><span style=\"width:62%\"></span></span><code>62%</code></div>",
+      "css": ".ds-lang{display:grid;grid-template-columns:1.25rem 7.5rem minmax(0,1fr) 3.75rem;align-items:center;gap:.75rem;padding:.625rem 1rem;border-top:1px solid var(--line,#ececef);color:var(--fg,#09090b);font-family:var(--font,Geist,sans-serif)}.ds-lang b{font-size:.875rem;font-weight:500}.ds-track{position:relative;height:.5rem;overflow:hidden;border-radius:2px;background:var(--surface,#f4f4f5)}.ds-track span{position:absolute;inset:0 auto 0 0;border-radius:2px;background:var(--fg,#09090b)}.ds-lang code{font:500 .8125rem/1 var(--mono,monospace);text-align:right;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Hatched Separator",
+      "kind": "custom",
+      "description": "Full-bleed 2rem diagonal-hatch band between sections, painted behind the rails.",
+      "html": "<div class=\"ds-sep\"></div>",
+      "css": ".ds-sep{position:relative;height:2rem}.ds-sep::before{content:\"\";position:absolute;inset:0;background-image:repeating-linear-gradient(315deg,color-mix(in srgb,var(--border,#e4e4e7) 75%,transparent) 0 1px,transparent 0 50%);background-size:10px 10px}"
+    },
+    {
+      "name": "Lined Grid",
+      "kind": "custom",
+      "description": "Project meta grid ruled by 1px box-shadow cells, mono uppercase keys.",
+      "html": "<dl class=\"ds-grid\"><div><dt>Stack</dt><dd>HTML, CSS, JS</dd></div><div><dt>Fonte</dt><dd>Geist</dd></div></dl>",
+      "css": ".ds-grid{display:grid;grid-template-columns:1fr 1fr;margin:0;font-family:var(--font,Geist,sans-serif)}.ds-grid div{padding:.75rem 1rem;box-shadow:1px 0 0 var(--line,#ececef),0 1px 0 var(--line,#ececef)}.ds-grid dt{font:500 .6875rem/1.4 var(--mono,\"Geist Mono\",monospace);letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#71717a)}.ds-grid dd{margin:.25rem 0 0;font-size:.875rem}"
+    },
+    {
+      "name": "Contribution Calendar",
+      "kind": "custom",
+      "refersTo": "calendar-cell",
+      "description": "Fig. 2: five grey steps in 2px-radius cells.",
+      "html": "<div class=\"ds-cal\"><i></i><i data-l=\"1\"></i><i data-l=\"2\"></i><i data-l=\"3\"></i><i data-l=\"4\"></i></div>",
+      "css": ".ds-cal{display:flex;gap:3px}.ds-cal i{width:10px;height:10px;border-radius:2px;background:var(--cal-0,#ededef)}.ds-cal i[data-l=\"1\"]{background:var(--cal-1,#c8c8cd)}.ds-cal i[data-l=\"2\"]{background:var(--cal-2,#94949b)}.ds-cal i[data-l=\"3\"]{background:var(--cal-3,#55555d)}.ds-cal i[data-l=\"4\"]{background:var(--cal-4,#09090b)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Ruled Notebook",
+    "overview": "One column, 48rem wide, framed by two vertical rails that run the full height of the page. Every block inside it draws its own foot: a single hairline that runs past the rails to both edges of the window, so the page reads as a ruled sheet. Between sections the ruling breaks into a 2rem band of fine diagonal hatching that also runs full-bleed. The ink is monochrome zinc, light and dark. The drawn marks are figures: an isometric VG cover (Fig. 1), a contribution calendar (Fig. 2), and an authored monochrome diagram per project, set on a dotted drafting plate. A few handwritten notes hang in the margin.\n\nDensity is high and quiet: tight 1rem gutters, 0.75rem row padding, 0.8125–0.9375rem body sizes, data set in mono. Hierarchy comes from weight 500 against 400, negative tracking on headings, and the muted grey, never from hue or shadow. Languages and tools are marked with monochrome Simple Icons in current ink; a tool without a brand mark gets a line icon or an ink monogram chip. The page ends in a slim foot (monogram + GitHub) and a giant outline wordmark.",
+    "keyCharacteristics": [
+      "Single railed column (48rem) with full-bleed hairlines drawn by each block's foot.",
+      "Full-bleed hatched 2rem separators between sections.",
+      "Monochrome zinc palette in two themes; blue exists only as a freshness dot.",
+      "Project figures are line diagrams in stroke, hatch and ink on a dotted plate.",
+      "Geist for words, Geist Mono for data, Caveat only for the greeting and margin notes.",
+      "Flat surfaces; depth is ruling, not shadow."
+    ],
+    "rules": [
+      {
+        "name": "The Seven-Day Blue Rule",
+        "body": "Blue marks recent activity and nothing else: no links, buttons, focus, hover or data in blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-As-Accent Rule",
+        "body": "Emphasis is ink on paper (pressed chip, primary button, selection, language bars). If something needs to stand out, invert it; don't tint it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Monochrome Brand Rule",
+        "body": "Language and tool marks render as single-colour Simple Icons in `currentColor`; brand or GitHub language colours never enter the page.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono-Is-Data Rule",
+        "body": "Geist Mono sets numbers, counts, identifiers, figure labels, diagram text and code. Prose and headings never use it.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Pen Rule",
+        "body": "Caveat appears only in the greeting and in margin notes with their hand-drawn arrows. It never labels UI or carries information the page doesn't also state.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Foot Rule",
+        "body": "A block never gets a border-box. It draws only its bottom hairline, full-bleed to the window edges.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hatched Break Rule",
+        "body": "Sections are separated by a full-bleed 2rem band of 315° hatching (1px stroke, 10px tile), never by whitespace alone.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shadow-Is-A-Pen Rule",
+        "body": "box-shadow draws lines (1px rules, 2px knock-out rings), never blur or offset elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** let each block draw its own full-bleed foot hairline in Hairline; never box a panel.",
+      "**Do** separate sections with the full-bleed 2rem hatched band.",
+      "**Do** set counts, dates, identifiers and figure labels in Geist Mono at 0.6875–0.8125rem.",
+      "**Do** emphasize by inverting to ink (pressed chip, primary button, language bar), and keep weights at 400/500.",
+      "**Do** draw grid rules with 1px box-shadow cells so lines never double.",
+      "**Do** render language and tool marks as monochrome Simple Icons in `currentColor`; a tool without a mark gets a line icon or the ink monogram chip.",
+      "**Do** draw project figures only with the figure vocabulary, on the dotted plate.",
+      "**Do** honor `prefers-reduced-motion`: intro animations collapse to a 0.4s fade."
+    ],
+    "donts": [
+      "**Don't** use blue for anything except the 7-day freshness dot.",
+      "**Don't** colour languages or brands; no per-language hues, dots or multicolour bars.",
+      "**Don't** use Caveat for UI labels, headings or data.",
+      "**Don't** use mono for prose or headings.",
+      "**Don't** add drop shadows, gradient fills, or hover lifts on surfaces; they stay flat.",
+      "**Don't** round panels, rows, cards or the column; only the figure plate takes the 12px curve.",
+      "**Don't** introduce a second column or sidebar layout; the page is one railed column."
+    ]
+  }
+}
