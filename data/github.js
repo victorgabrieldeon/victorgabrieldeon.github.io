@@ -1,16 +1,34 @@
 // Gerado por scripts/sync-github.mjs — não editar à mão.
 window.GITHUB = {
- "syncedAt": "2026-10-18T11:02:10.058Z",
+ "syncedAt": "2026-10-18T12:39:17.642Z",
  "user": {
   "login": "victorgabrieldeon",
   "name": "Victor Gabriel",
   "url": "https://github.com/victorgabrieldeon",
   "avatar": "https://avatars.githubusercontent.com/u/100036372?v=4",
   "followers": 24,
-  "publicRepos": 20,
+  "publicRepos": 21,
   "created": "2022-02-19T15:47:54Z"
  },
  "repos": [
+  {
+   "name": "victorgabrieldeon.github.io",
+   "description": "Portfólio de Victor Gabriel, engenheiro backend",
+   "url": "https://github.com/victorgabrieldeon/victorgabrieldeon.github.io",
+   "homepage": "https://victorgabrieldeon.github.io",
+   "language": "JavaScript",
+   "languages": {
+    "JavaScript": 80361,
+    "CSS": 42668,
+    "HTML": 19899
+   },
+   "topics": [],
+   "stars": 0,
+   "forks": 0,
+   "created": "2026-10-18T12:37:41Z",
+   "pushed": "2026-10-18T12:37:59Z",
+   "readme": "# victorgabrieldeon.github.io\n\nPortfólio de Victor Gabriel, engenheiro backend: <https://victorgabrieldeon.github.io/>\n\nHTML, CSS e JavaScript sem framework e sem build. Os projetos vêm de um snapshot dos repositórios públicos do GitHub, atualizado ao vivo pela API quando ela responde.\n\n## Rodar localmente\n\nQualquer servidor estático na raiz do repositório:\n\n```bash\npython3 -m http.server 4173\n```\n\ne abra <http://127.0.0.1:4173/>.\n\n## Estrutura\n\n| Caminho | O que é |\n| --- | --- |\n| `index.html` | Página única: home, `#/projetos` e `#/projeto/<nome>` |\n| `css/` | Estilos e fontes (Geist, Geist Mono, Caveat, auto-hospedadas em `fonts/`) |\n| `js/app.js` | Renderização, rotas, filtros, tema e atualização ao vivo |\n| `js/catalog.js` | Curadoria: resumo, áreas e pilha de cada repo, stack, arquitetura, repos ocultos |\n| `js/figures.js` | Diagramas monocromáticos de cada projeto e dos conceitos de arquitetura |\n| `js/brands.js` | Ícones de marca (gerado) |\n| `data/github.js` | Snapshot do GitHub (gerado) |\n\n## Atualizar dados\n\n```bash\nnode scripts/sync-github.mjs   # repos, READMEs, linguagens, contribuições e avatar\nnode scripts/sync-brands.mjs   # ícones do Simple Icons usados no site\n```\n\n`sync-github` usa `GITHUB_TOKEN` ou `gh auth token` quando disponível, para não esbarrar no limite da API.\n\n## Deploy\n\nO workflow `.github/workflows/pages.yml` publica no GitHub Pages a cada push na `main`, todo dia às 06:17 UTC (com o snapshot atualizado) e sob demanda. Só `index.html`, `css`, `js`, `fonts`, `img` e `data` vão para o site.\n"
+  },
   {
    "name": "futhub",
    "description": "",

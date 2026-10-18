@@ -25,7 +25,8 @@ Self-described "Backend Engineer — Systems · Performance · Observability" (G
 ## Capabilities and Constraints
 
 - Language: PT-BR UI (repo READMEs are mostly PT-BR).
-- Must list every public non-fork repo except `dreamfut` (hidden on request via `window.HIDDEN` in `js/catalog.js`): 17 today. Highlight HypeMeet, FutHub, Nexo DB, the Paseo/OpenCode plugins and the Python libs.
+- Must list every public non-fork repo except `dreamfut` (hidden on request via `window.HIDDEN` in `js/catalog.js`): 18 today, this site's own repo (`victorgabrieldeon.github.io`) included. Highlight HypeMeet, FutHub, Nexo DB, the Paseo/OpenCode plugins and the Python libs.
+- Hosting: GitHub Pages from `victorgabrieldeon/victorgabrieldeon.github.io` via `.github/workflows/pages.yml` (push to main, daily 06:17 UTC with a fresh snapshot, manual). Only `index.html`, `css`, `js`, `fonts`, `img` and `data` are published.
 - Forks (`hive`, `gh-ai-pull-request`) are excluded. The Paseo plugins are developer tools, never games.
 - Contact: GitHub only (github.com/victorgabrieldeon). No email or social links.
 - Brand commitment: a single ruled column in the vibe of chanhdai.com (rails, full-bleed hairlines, hatched separators, monochrome, Geist + Geist Mono, handwritten margin notes). Projects live on their own page as cards, each with a monochrome diagram of what the project does; languages and tools are shown with monochrome brand icons. No colophon. Replaced the earlier two-column brittanychiang.com layout on request. No terminal, command palette, themed metaphors or easter eggs; the user rejected the earlier man-page/terminal version.
